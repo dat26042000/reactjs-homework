@@ -1,0 +1,85 @@
+.current{
+    width: 648px;
+    height: auto;
+    margin-left: 330px;
+    margin-right: auto;
+    margin-top: 2px;
+    display: inline-flex;
+}
+.current_1{
+    height: 50px;
+    background-color: #ee5351;
+    flex: 1;
+    margin: 1px;
+}
+.current_2{
+    height: 50px;
+    background-color: #ee5351;
+    flex: 2;
+    margin: 1px;
+}
+.current_3{
+    height: 50px;
+    background-color: #ee5351;
+    flex: 3;
+    margin: 1px;
+}
+.current_4{
+    height: 50px;
+    background-color: #ee5351;
+    flex: 4;
+    margin: 1px;
+}
+.current_6{
+    height: 50px;
+    background-color: #ee5351;
+    flex: 1;
+    margin: 1px;
+}
+.current_5{
+    height: 50px;
+    background-color: #ee5351;
+    flex: 5;
+    margin: 1px;
+}
+.current_7{
+    height: 50px;
+    background-color: #ee5351;
+    flex: 7;
+    margin: 1px;
+}
+.current_8{
+    height: 50px;
+    background-color: #ee5351;
+    flex: 8;
+    margin: 1px;
+}
+.current_9{
+    height: 50px;
+    background-color: #ee5351;
+    flex: 9;
+    margin: 1px;
+}
+.current_10{
+    height: 50px;
+    background-color: #ee5351;
+    flex: 10;
+    margin: 1px;
+}
+.current_11{
+    height: 50px;
+    background-color: #ee5351;
+    flex: 11;
+    margin: 1px;
+}
+.current_12{
+    height: 50px;
+    background-color: #ee5351;
+    flex: 1;
+    margin: 1px;
+}
+p{
+    text-align: right;
+    color: white;
+    font-size: 15px;
+}
