@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+}
+.card {
+    width: 230px;
+    height: 270px;
+    border: 1px solid #eee;
+    padding: 10px;
+    background: white;
+    position: absolute;
+    transition: all ease-in-out 0.3s; /* bat ke thuoc tinh nao thay doi thuc hien thay doi ease-in-out trong 0,3s <all,width,height.....*/
+}
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: fill;
+}
+.card p {
+    text-align: center;
+}
+.card.berlin {
+    transform: rotate(-2deg);
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.card.italy {
+    transform: rotate(7deg);
+    top: 50px;
+    left: 80px;
+    z-index: 3;
+}
+.card.usa {
+    transform: rotate(7deg);
+    top: 100px;
+    left: 150px;
+    z-index: 2;
+}
+.card.london {
+    transform: rotate(23deg);
+    top: 140px;
+    left: 160px;
+    z-index: 2;
+}
+.card:hover {
+    z-index: 5;
+    transform: scale(1.2);
+}
